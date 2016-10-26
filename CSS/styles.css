@@ -1,0 +1,275 @@
+/**************
+GENERAL
+**************/
+
+a {
+  text-decoration: none;
+}
+
+h3, h4 {
+  font-family: chewy;
+  margin: 2em 0 2em 0;
+  padding: 5%;
+  font-size: 1.3em;
+  text-align: center;
+  background-color: #aaa;
+}
+
+p {
+  margin: 0 1.2em 1.2em 1.2em;
+  padding: 10px 0;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#primary {
+  border-bottom: thick double #bbb;
+}
+
+#secondary {
+  border-bottom: thick double #bbb;
+}
+
+
+
+/**************
+NAVIGATION
+**************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/**************
+HEADER
+**************/
+
+header {
+  text-align: center;
+  font-family: chewy, sans-serif;
+  font-size: 0.9em;
+  padding: 50px 0;
+  
+}
+
+.coverphoto {
+  display: block;
+  max-width: 200px;
+  height: 200px;
+  margin: 0 auto 60px;
+  border-radius: 65px;
+}
+
+.index1 {
+  background-image: url('../img/ocean.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/**************
+BODY
+**************/
+
+.abbs {
+  display: inline-block;
+}
+
+.abbs li.HTML {
+  background-color: red;
+  color: white;
+  font-weight: 800;
+  margin: 0 5px 0 5px;
+  padding: 0 5px 0 5px;
+  display: inline;
+}
+
+.abbs li.CSS {
+  background-color: blue;
+  color: white;
+  font-weight: 800;
+  margin: 0 1px 0 1px;
+  padding: 0 5px 0 5px;
+  display: inline;
+}
+
+.abbs li.Javascript {
+  background-color: red;
+  color: white;
+  font-weight: 800;
+  margin: 0 5px 0 5px;
+  padding: 0 5px 0 5px;
+  display: inline;
+}
+
+.abbs li.PHP {
+  background-color: blue;
+  color: white;
+  font-weight: 800;
+  margin: 0 5px 0 5px;
+  padding: 0 5px 0 5px;
+  display: inline;
+}
+
+
+
+/**************
+FOOTER
+**************/
+
+footer {
+  font-size: .75em;
+  text-align: center;
+  clear: both;
+  padding-top: 100px;
+  color: #555;
+  
+  }
+  
+.social-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;  
+  }
+
+
+
+/**************
+CONTACT
+**************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 20px;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  color: #666;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.email a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.linkedin a {
+  background-image: url('../img/linkedin-logo.jpg');
+}
+
+
+
+/**************
+PAGE: WORK EXPERIENCE
+**************/
+
+.work1 {
+  background-color: #333;
+}
+
+.WEphoto {
+  height: 400px;
+  width: 75%;
+}
+
+
+
+/**************
+PAGE: HOBBIES
+**************/
+
+.hobbies {
+  background-color: #333;
+}
+
+.surf {
+  height: 400px;
+  width: 75%;
+}
+
+.snook {
+  max-width: 85%;
+  height: 250px;
+  margin: 10px 10px;
+  padding: 5%;
+}
+
+.poker {
+  max-width: 85%;
+  height: 250px;
+  margin: 10px 10px;
+  padding: 5%;
+}
+
+
+
+/**************
+COLOR
+**************/
+
+/* nav bar background color*/
+nav {
+  background: #000;
+}
+
+/* nav links*/
+nav a, nav a:visited {
+  color: #bbb;
+}
+
+/* selected nav link*/
+nav a.selected, nav a:hover {
+  color: white;
+}
+
+body {
+  overflow: scroll;
+}
+
+  
+
+
+
+

@@ -1,0 +1,50 @@
+@media screen and (min-width: 480px) {
+  
+/*******
+Two Column Layout
+********/
+  
+  #primary {
+    width: 50%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+  
+  
+  
+/******************
+PORTFOLIO
+******************/
+
+  header {
+    font-size: 1em;
+  }
+}  
+
+
+@media screen and (min-width: 660px) {
+  
+  header {
+    font-size: 1.3em;
+  }
+  
+  .profile-photo {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto 30px;
+    border-radius: 20px;
+  }
+}  
+      
+    
+  
+  
+  
+  
+  
+  
+ 
