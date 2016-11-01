@@ -12,12 +12,19 @@ h3, h4 {
   padding: 5%;
   font-size: 1.3em;
   text-align: center;
-  background-color: #aaa;
+  background-color: #666;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px #ddd;
+}
+
+body {
+  background-color: lightblue;
 }
 
 p {
   margin: 0 1.2em 1.2em 1.2em;
   padding: 10px 0;
+  letter-spacing: 1px;
 }
 
 #wrapper {
@@ -72,7 +79,9 @@ header {
   font-family: chewy, sans-serif;
   font-size: 0.9em;
   padding: 50px 0;
-  
+  letter-spacing: 0.9px;
+  text-shadow: 2px 2px 1px #bbb;
+
 }
 
 .coverphoto {
@@ -97,43 +106,35 @@ BODY
 **************/
 
 .abbs {
-  display: inline-block;
+  line-height: 1.7em;
+  list-style: none;
+  float: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 .abbs li.HTML {
-  background-color: red;
-  color: white;
+  color: red;
+  text-shadow: 2px 2px 1px #666;
   font-weight: 800;
-  margin: 0 5px 0 5px;
-  padding: 0 5px 0 5px;
-  display: inline;
 }
 
 .abbs li.CSS {
-  background-color: blue;
-  color: white;
+  color: blue;
+  text-shadow: 2px 2px 1px #666;
   font-weight: 800;
-  margin: 0 1px 0 1px;
-  padding: 0 5px 0 5px;
-  display: inline;
 }
 
 .abbs li.Javascript {
-  background-color: red;
-  color: white;
+  color: red;
+  text-shadow: 2px 2px 1px #666;
   font-weight: 800;
-  margin: 0 5px 0 5px;
-  padding: 0 5px 0 5px;
-  display: inline;
 }
 
 .abbs li.PHP {
-  background-color: blue;
-  color: white;
+  color: blue;
+  text-shadow: 2px 2px 1px #666;
   font-weight: 800;
-  margin: 0 5px 0 5px;
-  padding: 0 5px 0 5px;
-  display: inline;
 }
 
 
