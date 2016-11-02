@@ -14,7 +14,8 @@ h3, h4 {
   text-align: center;
   background-color: #666;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 2px #ddd;
+  text-shadow: 4px 3px 2px #444;
+  box-shadow: inset -4px -4px 15px 5px #bbb;
 }
 
 body {
@@ -25,12 +26,14 @@ p {
   margin: 0 1.2em 1.2em 1.2em;
   padding: 10px 0;
   letter-spacing: 1px;
+  line-height: 1.5em;
 }
 
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
+  background-color: lightblue;
 }
 
 #primary {
@@ -50,7 +53,7 @@ NAVIGATION
 nav {
   text-align: center;
   padding: 10px 0;
-  margin: 20px 0 0;
+  margin: 0;
 }
 
 nav ul {
