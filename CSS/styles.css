@@ -1,3 +1,8 @@
+
+* {
+  box-sizing: border-box;
+}
+
 /**************
 GENERAL
 **************/
@@ -33,15 +38,17 @@ p {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
-  background-color: lightblue;
+  background: linear-gradient(#5e88b0, transparent 95%),
+              linear-gradient(0deg, #e6b064, transparent);
+  background-image: linear-gradient(circle, #a9bacb white);
 }
 
 #primary {
-  border-bottom: thick double #bbb;
+  border-bottom: thick double #555;
 }
 
 #secondary {
-  border-bottom: thick double #bbb;
+  border-bottom: thick double #555;
 }
 
 
@@ -100,6 +107,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-bottom: 5px solid #a9bacb;
 }
 
 
@@ -167,6 +175,12 @@ footer {
 CONTACT
 **************/
 
+.contact-page {
+  background: linear-gradient(#ddd, transparent 95%),
+              linear-gradient(0deg, #5e88b0, transparent);
+  background-image:linear-gradient(circle, #a9bacb white);
+}
+
 .profile-photo {
   display: block;
   max-width: 150px;
@@ -188,7 +202,7 @@ CONTACT
   background-size: 20px 20px;
   padding: 0 0 0 30px;
   margin: 0 0 10px;
-  color: #666;
+  color: black;
 }
 
 .contact-info li.phone a {
@@ -210,7 +224,9 @@ PAGE: WORK EXPERIENCE
 **************/
 
 .work1 {
-  background-color: #333;
+  background: linear-gradient(#5e88b0, transparent 95%),
+              linear-gradient(0deg, #e6b064, transparent);
+  background-image:linear-gradient(circle, #a9bacb white);
 }
 
 .WEphoto {
@@ -225,7 +241,9 @@ PAGE: HOBBIES
 **************/
 
 .hobbies {
-  background-color: #333;
+  background: linear-gradient(#ddd, transparent 95%),
+              linear-gradient(0deg, #5e88b0, transparent);
+  background-image:linear-gradient(circle, #a9bacb white);
 }
 
 .surf {
@@ -235,16 +253,18 @@ PAGE: HOBBIES
 
 .snook {
   max-width: 85%;
-  height: 250px;
-  margin: 10px 10px;
-  padding: 5%;
+  height: 275px;
+  margin: 10px 30px;
+  padding: 0;
+  box-shadow: 5px 5px 15px 5px #aaa;
 }
 
 .poker {
   max-width: 85%;
-  height: 250px;
-  margin: 10px 10px;
-  padding: 5%;
+  height: 275px;
+  margin: 10px 30px;
+  padding: 0;
+  box-shadow: 5px 5px 15px 5px #aaa;
 }
 
 
