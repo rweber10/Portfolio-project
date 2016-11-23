@@ -12,10 +12,11 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Bobby/Documents/GitHub/Responsive design project-2/index.html",
+			"file": "/C/Users/Bobby/Documents/GitHub/project (2)/index.html",
 			"settings":
 			{
-				"buffer_size": 5453,
+				"buffer_size": 5492,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -52,6 +53,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Bobby/Documents/GitHub/Responsive design project-2/index.html",
 		"/C/Users/Bobby/Documents/GitHub/project-01/index.html",
 		"/C/Users/Bobby/Documents/GitHub/project-01/hobbies.html",
 		"/C/Users/Bobby/Documents/GitHub/project-01/work-experience.html",
@@ -97,19 +99,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Bobby/Documents/GitHub/Responsive design project-2/index.html",
+					"file": "/C/Users/Bobby/Documents/GitHub/project (2)/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5453,
+						"buffer_size": 5492,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								761,
+								761
 							]
 						],
 						"settings":
